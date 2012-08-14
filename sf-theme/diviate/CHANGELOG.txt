@@ -1,3 +1,6 @@
+diviate 1.0.3 (2012-August-14)
+   -added min-height value in style.css
+
 diviate 1.0.2 (2011-March-27)
    -requires StayCMS Alpha 0.6 or greater (use of Timeexec)
    
