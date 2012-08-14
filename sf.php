@@ -57,7 +57,7 @@ foreach($addon_toload as $addon_name) {
    }
 } /*-end addon loop-*/
 
-//apply the primary extention style, if relevant style is defined/exists
+//load the primary extention
 if (is_readable($include_path . "/extention/primary/$primary_extention/load.inc.php"))
    require($include_path . "/extention/primary/$primary_extention/load.inc.php");
 
