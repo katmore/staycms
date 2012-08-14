@@ -4,7 +4,7 @@ Project Homepage
    http://katmore.com/sft/staycms
    
 Social:
-   staycms@katmore.com http://twitter.com/katmoresoft
+   staycms@katmore.com http://twitter.com/katmoresoft http://github.com/katmore
    
 Quickstart / Configuration:
    http://katmore.com/sft/staycms/docs/txt/quickstart
