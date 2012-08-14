@@ -1,0 +1,12 @@
+This will cause the page cms class to be given a different content namespace
+ depending on the HTTP hostname in the URL.
+Similar to "virtual servers" used in apache sort-of-thing.
+
+Typical configuration:
+   * copy this ('multisite') folder with files 'multisite.inc.php' and 'normal-style.inc.php'
+   * create folders in 'content' with same name as host (domain) you wish to match content sets with
+      * optionally (and recomended) create a default ns desigend to be the fallback (if no ns match for host) 
+   * if wish a particular theme per host, either:
+      * explicitly name the theme in a special settings file called reserved-settings.inc.php
+         in that host's particular content folder
+      * create a theme with the same folder name as the host in the theme folder

@@ -1,0 +1,5 @@
+2012-04-22: Module: sf-Form 0.2 (alpha)
+   -forked this changelog and versioning from StayCMS pacakge
+   -forked sf-FormProc by removing form processing functions in this module (contained in prior release)
+   -updated filter for numeric to allow decimal points
+   -created is_int valrule

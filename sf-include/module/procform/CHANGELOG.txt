@@ -1,0 +1,4 @@
+2012-04-22: Module: sf-ProcForm 0.1 (alpha)
+   -created this module by forking most POST/GET (form processing) methods out of sf-Form
+   -corrected ambiguity between undefined constant / class type regarding "is_a" methods
+   -added functionality to process valrules (ie: no blank, integer only, etc)

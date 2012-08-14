@@ -1,0 +1,50 @@
+2012-05-05: staycms-0.6 release
+   -all modules, extentions, widgets belong to respective master classes, allowing for runtime diagnostics, etc
+   -removed "style" mechanism / terminology; replaced with "load" mechanism / terminology
+   -due to above: removed "sf-normal-style.php" file in root of project, renamed existing extentions normal-style.inc.php to load.inc.php
+   -corrected use of function "is_a()" so that class_name is properly expressed as string literal
+   -updated behavior when attempting to access non-existent content-id: now 500 server error given
+   -addon 'multisite' allows content namespace to be indicated via URL (_GET['ns'])
+   -addon 'multisite' allows theme to be indicated via URL (_GET['t'])
+   -create 'extentions' ability
+   -feature to use content namespace arbitrarily
+      -via GET
+      -per hostname (ie: per domain)
+         -to ns based on having identical name hostname
+   -feature to apply theme arbitrarily
+      -via GET
+      -per hostname
+      -via content
+   -add contact-form example (that emails results) to sample content
+
+2011-03-21: staycms-0.5 release
+   -simplified nomenclature used for loading modules (eliminated need to prepend "sf" to module name)
+   -forked changelogs for sample content, default themes, and default modules
+   -added functionality to ProcForm and Form modules
+   
+2011-03-16: staycms-0.4 release
+   -added ability to extend core functionality with "modules"
+   -now formats default title and heading text: Ucases beginning of each word, replaces dash (-) with [space]
+   -new sample content: added example page for modules (showing sfforms), changed sample content of 'home' page
+   -changes the packaged sf-config.php: modified order of settings for organization, and clarity, changed some default values so it works 'out of the box' in more scenerios
+   -related to above changes: changed some default folder names 
+
+2011-03-04: staycms-0.3 release
+   -modified default theme with updated Katmore links
+   -modified default theme to showcase customization of site heading, title per content id
+   -modified sfpage and sfdoc to allow customizing of site heading text, and copyright text
+   -added annotated sf-config items for defauult site heading and default copyright text
+
+2011-02-23: staycms-0.2 release
+   -added some rudimentary error handling
+   -modified sfdoc and sfpage to allow hyphens in content namespace
+   -modified sfcms with simplier method of contentid verification from namespace
+   -modified sfpage to facilitate creation of valid links to any available contentid based on a link format and baesurl
+   -modified sfpage to allow customizing of Title text and Heading text in the theme files
+   -added placeholding functions in sfpage for future News/Blog functionality
+   -annotated the default sf-config file
+   -modified the default content, and default theme
+   -created a changelog
+
+2011-02-22: staycms-0.1 release
+   -alpha release

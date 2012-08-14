@@ -1,0 +1,58 @@
+TODO/ROADMAP: the latest version of this document is always available at
+   http://katmore.com/sft/staycms/docs/
+      
+staycms 0.7 (alpha) release:
+	-ability to do 404 for contentid fail rather than rever to 500 server error
+   -create default extention for user/pass authentication
+      -apply to content namespace access ability
+   -create widget system
+
+staycms 0.9 (alpha) release:
+   -create extention that allows ability for content can be pulled from sources other than files
+      -via sqlite
+      -via MySQL
+      -via CouchDB
+   -have backend created for admin XML/JSON web service
+
+staycms 0.8 (alpha) release:
+   -create front-end of web based admin panel package
+      -ability to authenticate user/pass
+      -ability to add/modify content namespace as allowed in user/pass permissions
+         -modification only via SSH for now
+         -edit only via onpage edit box (text box with some syntax highlighting) for now
+   
+staycms 0.10 (alpha) release:
+   -default extention for images to be stored/sorted/resized/processed through CMS?
+      -add ability to add images via admin panel
+   -ability to add extentions/modules/widgets from admin panel
+      
+WISHLIST:
+   -News/Blog default extention
+   -thinking about creating different "packages" if script slowdown or code
+      -will value add come from having stand-alone apps? yes
+      -allow web-baed admin package to be bundled by default, probably 
+   bloat too much with all the new default extentions/modules/widgets
+   -versioning of theme and content changes when done via admin
+   
+   
+   
+   
+
+
+
+
+
+   
+NOTES:
+   -admin panel is separate package.
+   -admin panel may be built as a web service
+      -will create free subscription service to use admin package from partners/or/katmore website
+      -hopefully also to be accessed via subscription via PC/Mac app, Android, iPhone app
+   
+   
+   
+   
+
+
+
+

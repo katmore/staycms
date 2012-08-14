@@ -1,0 +1,4 @@
+barebones 1.0.1
+   -requires StayCMS Alpha 0.6 or greater (use of Timeexec)
+barebones 1.0.0
+   -initial release

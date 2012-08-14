@@ -1,0 +1,9 @@
+diviate 1.0.2 (2011-March-27)
+   -requires StayCMS Alpha 0.6 or greater (use of Timeexec)
+   
+diviate 1.0.1 (2011-March-XX)
+   -incorporated copyright splash to footer area
+   -added items to main stylesheet (style.css)
+   
+diviate 1.0.0 (2011-March-12)
+   -initial release
