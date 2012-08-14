@@ -1,4 +1,4 @@
-StayCMS is content management system framework, written in PHP, designed to be simple to configure, apply, and extend.
+StayCMS is a content management system framework, written in PHP, designed to be simple to configure, apply, and extend.
 
 Project Homepage
    http://katmore.com/sft/staycms
