@@ -55,12 +55,18 @@ class sfprocformvalrule {
    }
    public function __construct($what,$valrule) {
       //check that it's a valid rule
-      if (is_a("sfvalrule_".$valrule,"sfvalrule")) {
-         $newrule = "sfvalrule_".$valrule;
-         $this->valrule = new $newrule;
+      $newrule_classname = "sfvalrule_".$valrule;
+      try {
+         $this->valrule = new $newrule_classname;
+      } catch (Exception $e) {
+         throw new Exception("problem while making new rule. ".$e->getMessage());
+      }
+      if (is_a($this->valrule ,"sfvalrule")) {
+         
+         
          $this->name = $what;
       } else {
-         throw new Exception("'$valrule' is not a valid form val rule.");
+         throw new Exception("[$valrule] is not a valid form val rule.");
       }
    }
 }
