@@ -44,6 +44,9 @@ class sfpagedoc extends sfdoc {
    private $contentdir;
    private $linkformat;
    
+   public function showIfContentid($str_to_show,$contentid) {
+      if ($this->contentid==$contentid) echo $str_to_show;
+   }
    
    private function showHeadextra() {
       if (file_exists ($this->contentdir . "/headextra-" . $this->contentid .".inc.php")) {
