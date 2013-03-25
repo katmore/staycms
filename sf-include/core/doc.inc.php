@@ -32,7 +32,7 @@ class sfdoc {
    protected function getModule($f_name) {
       $classname = "sf" . $f_name;
       //include the widget
-      require(__DIR__ . "./../module/" . $f_name . "/" . $f_name . ".inc.php");
+      require_once(__DIR__ . "./../module/" . $f_name . "/" . $f_name . ".inc.php");
       
       //load the widget
       $module = new $classname();
