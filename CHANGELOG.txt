@@ -1,3 +1,5 @@
+2013-03-27: staycms-0.61 release
+   -bug fixes
 2012-05-05: staycms-0.6 release
    -all modules, extentions, widgets belong to respective master classes, allowing for runtime diagnostics, etc
    -removed "style" mechanism / terminology; replaced with "load" mechanism / terminology
